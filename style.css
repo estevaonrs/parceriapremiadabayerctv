@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.frame {
+    width: 600px;
+    height: 1580px;
+    position: relative;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.ativo {
+    position: absolute;
+}
+
+/* --- ESTILOS PARA CADA ATIVO DE IMAGEM --- */
+.ativo-4 {
+    width: 600px;
+    height: 78.48px;
+    top: 25px;
+    left: 0;
+}
+
+.ativo-3 {
+    width: 84.64px;
+    height: 54.7px;
+    top: 37px;
+    left: 36px;
+}
+
+.ativo-1 {
+    width: 8.82px;
+    height: 13.78px;
+    top: 57px;
+    left: 502px;
+}
+
+.ativo-2 {
+    width: 24px;
+    height: 15.7px;
+    top: 55px;
+    left: 527px;
+}
+
+.ativo-11 {
+    width: 600px;
+    height: 483px;
+    top: 103px;
+    left: 0;
+}
+
+.ativo-10 {
+    width: 495px;
+    height: 223px;
+    top: 122px;
+    left: 0;
+}
+
+.ativo-7 {
+    width: 331.1px;
+    height: 123.03px;
+    top: 155px;
+    left: 36px;
+}
+
+.ativo-6 {
+    width: 171.11px;
+    height: 110.58px;
+    top: 170px;
+    left: 395px;
+}
+
+.ativo-9 {
+    width: 573.73px;
+    height: 78.82px;
+    top: 316px;
+    left: 26px;
+}
+
+/* Nota: Ativo 46 e 47 agora estão dentro de um link agrupado */
+/* As posições aqui são apenas para as imagens *dentro* do link */
+.ativo-46 {
+    width: 219px;
+    height: 29px;
+    /* top e left serão definidos pelo link pai */
+}
+
+.ativo-47 {
+    width: 171px;
+    height: 15.7px;
+    /* top e left serão definidos pelo link pai */
+}
+
+.ativo-62 {
+    width: 53.36px;
+    height: 16.92px;
+    top: 433px;
+    left: 0;
+}
+
+.ativo-51 {
+    width: 237.53px;
+    height: 337.66px;
+    top: 529px;
+    left: 36px;
+}
+
+/* --- NOVOS ATIVOS --- */
+.ativo-61 {
+    width: 305.98px;
+    height: 16.92px;
+    top: 579px;
+    left: 294px;
+}
+
+.ativo-52 {
+    width: 10.87px;
+    height: 16.92px;
+    top: 632px;
+    left: 306px;
+}
+
+.ativo-58 {
+    width: 229px;
+    height: 99px;
+    top: 628px;
+    left: 333px;
+}
+
+.ativo-59 {
+    width: 241px;
+    height: 65px;
+    top: 757px;
+    left: 333px;
+}
+
+.ativo-65 {
+    width: 563px;
+    height: 79px;
+    top: 877px;
+    left: 37px;
+    z-index: 1;
+}
+
+/* Nota: Ativo 48 e 45 agora estão dentro de um link agrupado */
+/* As posições aqui são apenas para as imagens *dentro* do link */
+.ativo-48 {
+    width: 222px;
+    height: 28px;
+    /* top e left serão definidos pelo link pai */
+    z-index: 1;
+}
+
+.ativo-45 {
+    width: 164.39px;
+    height: 15.7px;
+    /* top e left serão definidos pelo link pai */
+    z-index: 1; /* Adicionado z-index para garantir visibilidade */
+}
+
+.ativo-66 {
+    width: 600px;
+    height: 196.2px;
+    top: 903px;
+    left: 0;
+}
+
+.ativo-50 {
+    width: 58px;
+    height: 57px;
+    top: 989px;
+    left: 52px;
+}
+
+.ativo-57 {
+    width: 134.54px;
+    height: 45.32px;
+    top: 994px;
+    left: 124px;
+}
+
+.ativo-49 {
+    width: 58px;
+    height: 57px;
+    top: 989px;
+    left: 304px;
+}
+
+.ativo-55 {
+    width: 191.52px;
+    height: 45.32px;
+    top: 994px;
+    left: 376px;
+}
+
+.ativo-43 {
+    width: 600px;
+    height: 178.41px;
+    top: 1098px;
+    left: 0;
+}
+
+/* Ativos 21, 20, 22, 23 são agora referenciados com os nomes que você corrigiu no HTML */
+.ativo-21 { /* Refere-se a Ativo 30.png no HTML */
+    width: 126px;
+    height: 26px;
+    top: 1140px;
+    left: 55px;
+}
+
+.ativo-20 { /* Refere-se a Ativo 29.png no HTML */
+    width: 370px;
+    height: 50px;
+    top: 1182px;
+    left: 55px;
+}
+
+.ativo-22 { /* Refere-se a Ativo 31.png no HTML */
+    width: 115.73px;
+    height: 37.42px;
+    top: 1129px;
+    left: 457px;
+}
+
+.ativo-23 { /* Refere-se a Ativo 32.png no HTML */
+    width: 115.73px;
+    height: 37.42px;
+    top: 1182px;
+    left: 457px;
+}
+
+/* --- ESTILOS PARA OS TEXTOS --- */
+.group-ativo-46 {
+    position: absolute;
+    width: 457px;
+    height: 104px;
+    top: 425px;
+    left: 78px;
+}
+
+.group-ativo-47 {
+    position: absolute;
+    width: 260px;
+    height: 26.01px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.text-ola-nomemaster {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.group-ativo-48 {
+    position: absolute;
+    width: 418px;
+    height: 49.61px;
+    top: 39.98px;
+    left: 0;
+}
+
+.text-novidade-importante {
+    position: absolute;
+    width: 230px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.text-plataforma-atualizada {
+    position: absolute;
+    width: 450px;
+    height: 16px;
+    top: 16.8px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.text-mais-simples-pratico {
+    position: absolute;
+    width: 368px;
+    height: 16px;
+    top: 33.61px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.2;
+}
+
+.ativo-42 {
+    width: 600px;
+    height: 80px;
+    top: 1275px;
+    left: 0;
+}
+
+.ativo-37 {
+    width: 44.54px;
+    height: 44.54px;
+    top: 1395px;
+    left: 101px;
+    z-index: 1;
+}
+
+.ativo-36 {
+    width: 141px;
+    height: 16px;
+    top: 1449px;
+    left: 55px;
+    z-index: 1;
+}
+
+.ativo-34 { /* Assumindo que "w 89 h14 x79 y 1474" se refere a um ativo chamado Ativo 34.png */
+    width: 89px;
+    height: 14px;
+    top: 1474px;
+    left: 79px;
+    z-index: 1;
+}
+
+.ativo-33 {
+    width: 472.43px;
+    height: 32.4px;
+    top: 1511px;
+    left: 55px;
+    z-index: 1;
+}
+
+.ativo-35 {
+    width: 96px;
+    height: 16px;
+    top: 1401px;
+    left: 321px;
+    z-index: 1;
+}
+
+.ativo-41 {
+    width: 44.54px;
+    height: 44.54px;
+    top: 1435px;
+    left: 321px;
+    z-index: 1;
+
+}
+
+.ativo-40 {
+    width: 44.54px;
+    height: 44.54px;
+    top: 1436px;
+    left: 387.54px;
+    z-index: 1;
+
+}
+
+.ativo-39 {
+    width: 44.54px;
+    height: 44.54px;
+    top: 1436px;
+    left: 454.08px;
+    z-index: 1;
+
+}
+
+.ativo-38 {
+    width: 44.54px;
+    height: 44.54px;
+    top: 1436px;
+    left: 520.62px;
+    z-index: 1;
+}
+
+.ativo-44 {
+    width: 600px;
+    height: 278px;
+    top: 1355px;
+    left: 0;
+}
